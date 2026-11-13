@@ -843,3 +843,61 @@ ul {
         grid-template-columns: 1fr;
     }
 }
+/* ================= LANGUAGE SWITCHER & LTR SUPPORT ================= */
+.lang-btn {
+    background: var(--ivory);
+    color: var(--navy);
+    border: 1px solid var(--sky);
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 800;
+    font-size: 0.9rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: var(--transition);
+}
+
+.lang-btn:hover {
+    background: var(--navy);
+    color: var(--white);
+}
+
+/* تعديلات الاتجاه الإنجليزي (LTR) */
+html[dir="ltr"] .hero-content {
+    text-align: left;
+}
+
+html[dir="ltr"] .value-item {
+    border-right: none;
+    border-left: 4px solid var(--navy);
+}
+
+html[dir="ltr"] .experience-badge {
+    right: auto;
+    left: 20px;
+}
+
+html[dir="ltr"] .footer-logo {
+    justify-content: flex-start;
+}
+
+html[dir="ltr"] .footer-links a:hover {
+    padding-right: 0;
+    padding-left: 5px;
+}
+
+html[dir="ltr"] .footer-contact i {
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+html[dir="ltr"] .dir-align {
+    text-align: left;
+}
+
+html[dir="rtl"] .dir-align {
+    text-align: right;
+}

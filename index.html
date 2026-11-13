@@ -24,7 +24,7 @@
         <div class="container top-bar-content">
             <div class="contact-quick">
                 <a href="tel:+966568327534"><i class="fas fa-phone-alt"></i> +966 56 832 7534</a>
-                <a href="mailto:Tresline25@gmail.com"><i class="fas fa-envelope"></i> Tresline25@gmail.com</a>
+                <a href="mailto:sales@tres-line.com"><i class="fas fa-envelope"></i> sales@tres-line.com</a>
             </div>
             <div class="location-info">
                 <span><i class="fas fa-map-marker-alt"></i> المملكة العربية السعودية - المنطقة الشرقية، الدمام</span>
@@ -49,13 +49,18 @@
 
             <nav class="navbar" id="navbar">
                 <ul class="nav-links">
-                    <li><a href="#home" class="active">الرئيسية</a></li>
-                    <li><a href="#about">من نحن</a></li>
-                    <li><a href="#services">نطاق الخدمات</a></li>
-                    <li><a href="#ac-types">أنواع المكيفات</a></li>
-                    <li><a href="#features">مميزاتنا</a></li>
-                    <li><a href="#quality">الجودة والسلامة</a></li>
-                    <li><a href="#contact" class="btn-nav">تواصل معنا</a></li>
+                    <li><a href="#home" class="active" data-i18n="nav_home">الرئيسية</a></li>
+                    <li><a href="#about" data-i18n="nav_about">من نحن</a></li>
+                    <li><a href="#services" data-i18n="nav_services">نطاق الخدمات</a></li>
+                    <li><a href="#ac-types" data-i18n="nav_ac">أنواع المكيفات</a></li>
+                    <li><a href="#features" data-i18n="nav_features">مميزاتنا</a></li>
+                    <li><a href="#quality" data-i18n="nav_quality">الجودة والسلامة</a></li>
+                    <li><a href="#contact" class="btn-nav" data-i18n="nav_contact">تواصل معنا</a></li>
+                    <li>
+                        <button id="langToggle" class="lang-btn" aria-label="Switch Language">
+                            <i class="fas fa-globe"></i> <span id="langText">EN</span>
+                        </button>
+                    </li>
                 </ul>
             </nav>
 
@@ -70,17 +75,20 @@
         <div class="hero-overlay"></div>
         <div class="container hero-content">
             <div class="hero-badges">
-                <span>التزام</span>
+                <span data-i18n="val_1">التزام</span>
                 <span class="dot">•</span>
-                <span>احترافية</span>
+                <span data-i18n="val_2">احترافية</span>
                 <span class="dot">•</span>
-                <span>جودة</span>
+                <span data-i18n="val_3">جودة</span>
             </div>
-            <h1>الحلول المتكاملة لتركيب وصيانة<br><span class="highlight">أنظمة التكييف والتبريد</span></h1>
-            <p>نقدم خدمات هندسية وفنية عالية الكفاءة للمنشآت التجارية والسكنية وفق أعلى معايير الجودة والسلامة المهنية في المملكة العربية السعودية.</p>
+            <h1>
+                <span data-i18n="hero_title_1">الحلول المتكاملة لتركيب وصيانة</span><br>
+                <span class="highlight" data-i18n="hero_title_2">أنظمة التكييف والتبريد</span>
+            </h1>
+            <p data-i18n="hero_desc">نقدم خدمات هندسية وفنية عالية الكفاءة للمنشآت التجارية والسكنية وفق أعلى معايير الجودة والسلامة المهنية في المملكة العربية السعودية.</p>
             <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary">اطلب خدمة أو عرض سعر</a>
-                <a href="#services" class="btn btn-outline">استكشف خدماتنا</a>
+                <a href="#contact" class="btn btn-primary" data-i18n="hero_btn_1">اطلب خدمة أو عرض سعر</a>
+                <a href="#services" class="btn btn-outline" data-i18n="hero_btn_2">استكشف خدماتنا</a>
             </div>
         </div>
     </section>
@@ -89,26 +97,26 @@
     <section class="about section-padding" id="about">
         <div class="container about-grid">
             <div class="about-text">
-                <span class="section-tag">تعريف الشركة</span>
-                <h2>شريكك الموثوق في أنظمة التكييف والتبريد</h2>
-                <p>تُعد <strong>شركة تريسلاين للخدمات التجارية (TRESLINE COMPANY)</strong> من الشركات المتخصصة في تقديم حلول التكييف والتبريد المتكاملة. نركز على تلبية احتياجات عملائنا من خلال تنفيذ أعمال التركيب، الصيانة الوقائية والتصحيحية، والتشغيل بأعلى درجات الدقة والموثوقية.</p>
-                <p>نعتمد في عملنا على كوادر فنية مؤهلة وأحدث المعدات المعتمدة لضمان استمرارية عمل الأنظمة بكفاءة عالية وتقليل الأعطال المفاجئة.</p>
+                <span class="section-tag" data-i18n="about_tag">تعريف الشركة</span>
+                <h2 data-i18n="about_title">شريكك الموثوق في أنظمة التكييف والتبريد</h2>
+                <p data-i18n="about_p1">تُعد شركة تريسلاين للخدمات التجارية (TRESLINE COMPANY) من الشركات المتخصصة في تقديم حلول التكييف والتبريد المتكاملة. نركز على تلبية احتياجات عملائنا من خلال تنفيذ أعمال التركيب، الصيانة الوقائية والتصحيحية، والتشغيل بأعلى درجات الدقة والموثوقية.</p>
+                <p data-i18n="about_p2">نعتمد في عملنا على كوادر فنية مؤهلة وأحدث المعدات المعتمدة لضمان استمرارية عمل الأنظمة بكفاءة عالية وتقليل الأعطال المفاجئة.</p>
                 
                 <div class="values-cards">
                     <div class="value-item">
                         <i class="fas fa-handshake"></i>
-                        <h4>الالتزام</h4>
-                        <p>دقة في المواعيد ووفاء بكافة التعاقدات الفنية.</p>
+                        <h4 data-i18n="val_1">الالتزام</h4>
+                        <p data-i18n="val_1_desc">دقة في المواعيد ووفاء بكافة التعاقدات الفنية.</p>
                     </div>
                     <div class="value-item">
                         <i class="fas fa-user-tie"></i>
-                        <h4>الاحترافية</h4>
-                        <p>فريق هندسي وفني متخصص بمعايير عالمية.</p>
+                        <h4 data-i18n="val_2">الاحترافية</h4>
+                        <p data-i18n="val_2_desc">فريق هندسي وفني متخصص بمعايير عالمية.</p>
                     </div>
                     <div class="value-item">
                         <i class="fas fa-award"></i>
-                        <h4>الجودة</h4>
-                        <p>استخدام أفضل المواد والمعدات المعتمدة.</p>
+                        <h4 data-i18n="val_3">الجودة</h4>
+                        <p data-i18n="val_3_desc">استخدام أفضل المواد والمعدات المعتمدة.</p>
                     </div>
                 </div>
             </div>
@@ -116,7 +124,7 @@
                 <div class="visual-box">
                     <div class="experience-badge">
                         <i class="fas fa-snowflake"></i>
-                        <span>حلول تبريد متكاملة</span>
+                        <span data-i18n="about_badge">حلول تبريد متكاملة</span>
                     </div>
                     <img src="images/image-01.png" alt="صيانة أنظمة التكييف">
                 </div>
@@ -128,9 +136,9 @@
     <section class="services section-padding bg-light" id="services">
         <div class="container">
             <div class="section-header text-center">
-                <span class="section-tag">نطاق الأعمال والخدمات</span>
-                <h2>خدماتنا المتخصصة في التكييف والتبريد</h2>
-                <p>نغطي كافة مراحل دورة حياة أنظمة التكييف بدءاً من التأسيس والتركيب وحتى الصيانة الدورية والتشغيل.</p>
+                <span class="section-tag" data-i18n="srv_tag">نطاق الأعمال والخدمات</span>
+                <h2 data-i18n="srv_title">خدماتنا المتخصصة في التكييف والتبريد</h2>
+                <p data-i18n="srv_desc">نغطي كافة مراحل دورة حياة أنظمة التكييف بدءاً من التأسيس والتركيب وحتى الصيانة الدورية والتشغيل.</p>
             </div>
 
             <div class="services-grid">
@@ -139,12 +147,12 @@
                     <div class="service-icon">
                         <i class="fas fa-tools"></i>
                     </div>
-                    <h3>أعمال التركيب</h3>
+                    <h3 data-i18n="srv_1_title">أعمال التركيب</h3>
                     <ul class="service-list">
-                        <li><i class="fas fa-check-circle"></i> تركيب مكيفات السبليت (Split Unit)</li>
-                        <li><i class="fas fa-check-circle"></i> تركيب المكيفات الأرضية (Floor Standing Unit)</li>
-                        <li><i class="fas fa-check-circle"></i> تركيب مكيفات الكاسيت (Cassette Unit)</li>
-                        <li><i class="fas fa-check-circle"></i> تركيب مكيفات الشباك (Window Unit)</li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="srv_1_li1">تركيب مكيفات السبليت (Split Unit)</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="srv_1_li2">تركيب المكيفات الأرضية (Floor Standing Unit)</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="srv_1_li3">تركيب مكيفات الكاسيت (Cassette Unit)</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="srv_1_li4">تركيب مكيفات الشباك (Window Unit)</span></li>
                     </ul>
                 </div>
 
@@ -153,14 +161,14 @@
                     <div class="service-icon">
                         <i class="fas fa-wrench"></i>
                     </div>
-                    <h3>أعمال الصيانة</h3>
+                    <h3 data-i18n="srv_2_title">أعمال الصيانة</h3>
                     <ul class="service-list">
-                        <li><i class="fas fa-check-circle"></i> الصيانة الوقائية الدورية</li>
-                        <li><i class="fas fa-check-circle"></i> الصيانة التصحيحية وإصلاح الأعطال</li>
-                        <li><i class="fas fa-check-circle"></i> فحص واختبار أنظمة التكييف</li>
-                        <li><i class="fas fa-check-circle"></i> تنظيف الوحدات الداخلية والخارجية</li>
-                        <li><i class="fas fa-check-circle"></i> شحن وإضافة غازات التبريد</li>
-                        <li><i class="fas fa-check-circle"></i> استبدال القطع التالفة وفحص دوائر الكهرباء والتحكم</li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="srv_2_li1">الصيانة الوقائية الدورية</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="srv_2_li2">الصيانة التصحيحية وإصلاح الأعطال</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="srv_2_li3">فحص واختبار أنظمة التكييف</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="srv_2_li4">تنظيف الوحدات الداخلية والخارجية</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="srv_2_li5">شحن وإضافة غازات التبريد</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="srv_2_li6">استبدال القطع التالفة وفحص دوائر الكهرباء والتحكم</span></li>
                     </ul>
                 </div>
 
@@ -169,12 +177,12 @@
                     <div class="service-icon">
                         <i class="fas fa-cogs"></i>
                     </div>
-                    <h3>أعمال التشغيل</h3>
+                    <h3 data-i18n="srv_3_title">أعمال التشغيل</h3>
                     <ul class="service-list">
-                        <li><i class="fas fa-check-circle"></i> تشغيل ومتابعة أنظمة التكييف</li>
-                        <li><i class="fas fa-check-circle"></i> إعداد خطط الصيانة الدورية</li>
-                        <li><i class="fas fa-check-circle"></i> رفع كفاءة التشغيل وتقليل الأعطال</li>
-                        <li><i class="fas fa-check-circle"></i> إعداد التقارير الفنية الدورية</li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="srv_3_li1">تشغيل ومتابعة أنظمة التكييف</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="srv_3_li2">إعداد خطط الصيانة الدورية</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="srv_3_li3">رفع كفاءة التشغيل وتقليل الأعطال</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="srv_3_li4">إعداد التقارير الفنية الدورية</span></li>
                     </ul>
                 </div>
             </div>
@@ -185,38 +193,38 @@
     <section class="ac-types section-padding" id="ac-types">
         <div class="container">
             <div class="section-header text-center">
-                <span class="section-tag">تغطية شاملة</span>
-                <h2>أنواع المكيفات التي نقوم بخدمتها</h2>
-                <p>خبرة فنية في التعامل مع مختلف الأنظمة والوحدات السكنية والتجارية.</p>
+                <span class="section-tag" data-i18n="ac_tag">تغطية شاملة</span>
+                <h2 data-i18n="ac_title">أنواع المكيفات التي نقوم بخدمتها</h2>
+                <p data-i18n="ac_desc">خبرة فنية في التعامل مع مختلف الأنظمة والوحدات السكنية والتجارية.</p>
             </div>
 
             <div class="ac-grid">
                 <div class="ac-card">
                     <div class="ac-badge">Split Unit</div>
                     <div class="ac-icon"><i class="fas fa-wind"></i></div>
-                    <h3>مكيفات سبليت</h3>
-                    <p>أعمال التركيب والصيانة والتشغيل وإصلاح الأعطال بكفاءة عالية.</p>
+                    <h3 data-i18n="ac_1_title">مكيفات سبليت</h3>
+                    <p data-i18n="ac_1_desc">أعمال التركيب والصيانة والتشغيل وإصلاح الأعطال بكفاءة عالية.</p>
                 </div>
 
                 <div class="ac-card">
                     <div class="ac-badge">Floor Standing Unit</div>
                     <div class="ac-icon"><i class="fas fa-server"></i></div>
-                    <h3>مكيفات أرضية</h3>
-                    <p>التركيب والصيانة الدورية والتشغيل للمساحات الواسعة والقاعات.</p>
+                    <h3 data-i18n="ac_2_title">مكيفات أرضية</h3>
+                    <p data-i18n="ac_2_desc">التركيب والصيانة الدورية والتشغيل للمساحات الواسعة والقاعات.</p>
                 </div>
 
                 <div class="ac-card">
                     <div class="ac-badge">Cassette Unit</div>
                     <div class="ac-icon"><i class="fas fa-th-large"></i></div>
-                    <h3>مكيفات كاسيت</h3>
-                    <p>التركيب والصيانة والتنظيف والإصلاح للأسقف المستعارة والمكاتب.</p>
+                    <h3 data-i18n="ac_3_title">مكيفات كاسيت</h3>
+                    <p data-i18n="ac_3_desc">التركيب والصيانة والتنظيف والإصلاح للأسقف المستعارة والمكاتب.</p>
                 </div>
 
                 <div class="ac-card">
                     <div class="ac-badge">Window Unit</div>
                     <div class="ac-icon"><i class="fas fa-border-all"></i></div>
-                    <h3>مكيفات شباك</h3>
-                    <p>التركيب والصيانة الوقائية والتصحيحية الشاملة.</p>
+                    <h3 data-i18n="ac_4_title">مكيفات شباك</h3>
+                    <p data-i18n="ac_4_desc">التركيب والصيانة الوقائية والتصحيحية الشاملة.</p>
                 </div>
             </div>
         </div>
@@ -226,43 +234,43 @@
     <section class="features section-padding bg-dark text-white" id="features">
         <div class="container">
             <div class="section-header text-center">
-                <span class="section-tag light">لماذا تريسلاين؟</span>
-                <h2>مميزات الشركة</h2>
-                <p>نجمع بين الخبرة الفنية والالتزام التام لتقديم تجربة استثنائية لعملائنا.</p>
+                <span class="section-tag light" data-i18n="feat_tag">لماذا تريسلاين؟</span>
+                <h2 data-i18n="feat_title">مميزات الشركة</h2>
+                <p data-i18n="feat_desc">نجمع بين الخبرة الفنية والالتزام التام لتقديم تجربة استثنائية لعملائنا.</p>
             </div>
 
             <div class="features-grid">
                 <div class="feature-box">
                     <i class="fas fa-users-cog"></i>
-                    <h4>فريق فني متخصص وذو خبرة</h4>
+                    <h4 data-i18n="feat_1">فريق فني متخصص وذو خبرة</h4>
                 </div>
                 <div class="feature-box">
                     <i class="fas fa-bolt"></i>
-                    <h4>سرعة الاستجابة للطوارئ والأعطال</h4>
+                    <h4 data-i18n="feat_2">سرعة الاستجابة للطوارئ والأعطال</h4>
                 </div>
                 <div class="feature-box">
                     <i class="fas fa-shield-alt"></i>
-                    <h4>الالتزام بمعايير الجودة والسلامة</h4>
+                    <h4 data-i18n="feat_3">الالتزام بمعايير الجودة والسلامة</h4>
                 </div>
                 <div class="feature-box">
                     <i class="fas fa-tags"></i>
-                    <h4>أسعار تنافسية</h4>
+                    <h4 data-i18n="feat_4">أسعار تنافسية</h4>
                 </div>
                 <div class="feature-box">
                     <i class="fas fa-microchip"></i>
-                    <h4>استخدام أحدث المعدات والأدوات الفنية</h4>
+                    <h4 data-i18n="feat_5">استخدام أحدث المعدات والأدوات الفنية</h4>
                 </div>
                 <div class="feature-box">
                     <i class="fas fa-file-alt"></i>
-                    <h4>تقديم تقارير فنية دورية</h4>
+                    <h4 data-i18n="feat_6">تقديم تقارير فنية دورية</h4>
                 </div>
                 <div class="feature-box">
                     <i class="fas fa-clock"></i>
-                    <h4>الالتزام بالمواعيد وجودة التنفيذ</h4>
+                    <h4 data-i18n="feat_7">الالتزام بالمواعيد وجودة التنفيذ</h4>
                 </div>
                 <div class="feature-box">
                     <i class="fas fa-headset"></i>
-                    <h4>خدمة ما بعد التنفيذ</h4>
+                    <h4 data-i18n="feat_8">خدمة ما بعد التنفيذ</h4>
                 </div>
             </div>
         </div>
@@ -274,26 +282,26 @@
             <div class="quality-card">
                 <div class="q-header">
                     <i class="fas fa-check-double"></i>
-                    <h3>سياسة الجودة</h3>
+                    <h3 data-i18n="qual_title">سياسة الجودة</h3>
                 </div>
-                <p>نسعى دائماً إلى تقديم خدمات عالية الجودة من خلال:</p>
+                <p data-i18n="qual_intro">نسعى دائماً إلى تقديم خدمات عالية الجودة من خلال:</p>
                 <ul>
-                    <li><i class="fas fa-angle-left"></i> تطبيق أفضل الممارسات الفنية.</li>
-                    <li><i class="fas fa-angle-left"></i> استخدام مواد ومعدات معتمدة.</li>
-                    <li><i class="fas fa-angle-left"></i> المتابعة المستمرة للأعمال المنفذة.</li>
-                    <li><i class="fas fa-angle-left"></i> تحقيق أعلى مستويات رضا العملاء.</li>
+                    <li><i class="fas fa-angle-left dir-arrow"></i> <span data-i18n="qual_li1">تطبيق أفضل الممارسات الفنية.</span></li>
+                    <li><i class="fas fa-angle-left dir-arrow"></i> <span data-i18n="qual_li2">استخدام مواد ومعدات معتمدة.</span></li>
+                    <li><i class="fas fa-angle-left dir-arrow"></i> <span data-i18n="qual_li3">المتابعة المستمرة للأعمال المنفذة.</span></li>
+                    <li><i class="fas fa-angle-left dir-arrow"></i> <span data-i18n="qual_li4">تحقيق أعلى مستويات رضا العملاء.</span></li>
                 </ul>
             </div>
 
             <div class="quality-card">
                 <div class="q-header">
                     <i class="fas fa-hard-hat"></i>
-                    <h3>الصحة والسلامة المهنية</h3>
+                    <h3 data-i18n="hse_title">الصحة والسلامة المهنية</h3>
                 </div>
-                <p>تلتزم الشركة بتطبيق أعلى معايير الصحة والسلامة المهنية أثناء تنفيذ جميع الأعمال، وذلك حفاظاً على سلامة العاملين والعملاء والممتلكات، مع الالتزام بالأنظمة والتعليمات المعتمدة.</p>
+                <p data-i18n="hse_desc">تلتزم الشركة بتطبيق أعلى معايير الصحة والسلامة المهنية أثناء تنفيذ جميع الأعمال، وذلك حفاظاً على سلامة العاملين والعملاء والممتلكات، مع الالتزام بالأنظمة والتعليمات المعتمدة.</p>
                 <div class="safety-highlight">
                     <i class="fas fa-shield-virus"></i>
-                    <span>بيئة عمل آمنة ومطابقة للمواصفات القياسية</span>
+                    <span data-i18n="hse_badge">بيئة عمل آمنة ومطابقة للمواصفات القياسية</span>
                 </div>
             </div>
         </div>
@@ -303,19 +311,19 @@
     <section class="contact section-padding" id="contact">
         <div class="container">
             <div class="section-header text-center">
-                <span class="section-tag">تواصل معنا</span>
-                <h2>نسعد بتواصلكم واستفساراتكم</h2>
-                <p>فريقنا جاهز للرد على استفساراتكم وتقديم الاستشارات وعروض الأسعار.</p>
+                <span class="section-tag" data-i18n="cnt_tag">تواصل معنا</span>
+                <h2 data-i18n="cnt_title">نسعد بتواصلكم واستفساراتكم</h2>
+                <p data-i18n="cnt_desc">فريقنا جاهز للرد على استفساراتكم وتقديم الاستشارات وعروض الأسعار.</p>
             </div>
 
             <div class="contact-wrapper">
                 <!-- Contact Info -->
                 <div class="contact-info">
-                    <h3>بيانات التواصل المباشر</h3>
+                    <h3 data-i18n="cnt_info_title">بيانات التواصل المباشر</h3>
                     <div class="info-item">
                         <div class="icon"><i class="fas fa-phone-alt"></i></div>
                         <div>
-                            <h5>رقم الجوال</h5>
+                            <h5 data-i18n="cnt_phone">رقم الجوال</h5>
                             <p dir="ltr"><a href="tel:+966568327534">+966 56 832 7534</a></p>
                         </div>
                     </div>
@@ -323,7 +331,7 @@
                     <div class="info-item">
                         <div class="icon"><i class="fas fa-envelope"></i></div>
                         <div>
-                            <h5>البريد الإلكتروني</h5>
+                            <h5 data-i18n="cnt_email">البريد الإلكتروني</h5>
                             <p><a href="mailto:sales@tres-line.com">sales@tres-line.com</a></p>
                         </div>
                     </div>
@@ -331,46 +339,46 @@
                     <div class="info-item">
                         <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
                         <div>
-                            <h5>العنوان</h5>
-                            <p>المملكة العربية السعودية<br>المنطقة الشرقية، الدمام<br>حي الزهور - محمد بن اميه<br>الرمز البريدي: 32423</p>
+                            <h5 data-i18n="cnt_address_label">العنوان</h5>
+                            <p data-i18n="cnt_address_full">المملكة العربية السعودية<br>المنطقة الشرقية، الدمام<br>حي الزهور - محمد بن اميه<br>الرمز البريدي: 32423</p>
                         </div>
                     </div>
 
                     <div class="whatsapp-box">
                         <a href="https://wa.me/966568327534" target="_blank" class="btn-whatsapp">
-                            <i class="fab fa-whatsapp"></i> تواصل عبر واتساب مباشرة
+                            <i class="fab fa-whatsapp"></i> <span data-i18n="cnt_wa">تواصل عبر واتساب مباشرة</span>
                         </a>
                     </div>
                 </div>
 
                 <!-- Contact Form -->
                 <div class="contact-form-box">
-                    <h3>أرسل رسالة أو طلب صيانة</h3>
+                    <h3 data-i18n="form_title">أرسل رسالة أو طلب صيانة</h3>
                     <form id="contactForm">
                         <div class="form-group">
-                            <label for="name">الاسم الكامل / اسم الجهة *</label>
-                            <input type="text" id="name" required placeholder="أدخل الاسم">
+                            <label for="name" data-i18n="form_name">الاسم الكامل / اسم الجهة *</label>
+                            <input type="text" id="name" required placeholder="أدخل الاسم" data-i18n-placeholder="form_name_ph">
                         </div>
                         <div class="form-row">
                             <div class="form-group">
-                                <label for="phone">رقم الجوال *</label>
+                                <label for="phone" data-i18n="form_phone">رقم الجوال *</label>
                                 <input type="tel" id="phone" required placeholder="05xxxxxxxx">
                             </div>
                             <div class="form-group">
-                                <label for="serviceType">نوع الخدمة المطلوبة</label>
+                                <label for="serviceType" data-i18n="form_srv">نوع الخدمة المطلوبة</label>
                                 <select id="serviceType">
-                                    <option value="تركيب">أعمال تركيب مكيفات</option>
-                                    <option value="صيانة">صيانة دورية / إصلاح عطل</option>
-                                    <option value="تشغيل">عقود تشغيل ومتابعة</option>
-                                    <option value="عرض سعر">طلب عرض سعر لمشروع</option>
+                                    <option value="تركيب" data-i18n="opt_1">أعمال تركيب مكيفات</option>
+                                    <option value="صيانة" data-i18n="opt_2">صيانة دورية / إصلاح عطل</option>
+                                    <option value="تشغيل" data-i18n="opt_3">عقود تشغيل ومتابعة</option>
+                                    <option value="عرض سعر" data-i18n="opt_4">طلب عرض سعر لمشروع</option>
                                 </select>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="message">تفاصيل الطلب *</label>
-                            <textarea id="message" rows="4" required placeholder="اكتب تفاصيل استفسارك أو نوع المكيفات..."></textarea>
+                            <label for="message" data-i18n="form_msg">تفاصيل الطلب *</label>
+                            <textarea id="message" rows="4" required placeholder="اكتب تفاصيل استفسارك أو نوع المكيفات..." data-i18n-placeholder="form_msg_ph"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block">إرسال الطلب</button>
+                        <button type="submit" class="btn btn-primary btn-block" data-i18n="form_submit">إرسال الطلب</button>
                         <div id="formStatus" class="form-status"></div>
                     </form>
                 </div>
@@ -392,31 +400,31 @@
                         <span class="en-sub text-sky">For Commercial Services</span>
                     </div>
                 </div>
-                <p>شركة متخصصة في تركيب وصيانة وتشغيل أنظمة التكييف والتبريد في المملكة العربية السعودية. التزام، احترافية، جودة.</p>
+                <p data-i18n="ftr_about">شركة متخصصة في تركيب وصيانة وتشغيل أنظمة التكييف والتبريد في المملكة العربية السعودية. التزام، احترافية، جودة.</p>
             </div>
 
             <div class="footer-links">
-                <h4>روابط سريعة</h4>
+                <h4 data-i18n="ftr_links">روابط سريعة</h4>
                 <ul>
-                    <li><a href="#home">الرئيسية</a></li>
-                    <li><a href="#about">تعريف الشركة</a></li>
-                    <li><a href="#services">نطاق الخدمات</a></li>
-                    <li><a href="#ac-types">أنواع المكيفات</a></li>
-                    <li><a href="#quality">الجودة والسلامة</a></li>
+                    <li><a href="#home" data-i18n="nav_home">الرئيسية</a></li>
+                    <li><a href="#about" data-i18n="nav_about">تعريف الشركة</a></li>
+                    <li><a href="#services" data-i18n="nav_services">نطاق الخدمات</a></li>
+                    <li><a href="#ac-types" data-i18n="nav_ac">أنواع المكيفات</a></li>
+                    <li><a href="#quality" data-i18n="nav_quality">الجودة والسلامة</a></li>
                 </ul>
             </div>
 
             <div class="footer-contact">
-                <h4>معلومات الاتصال</h4>
-                <p><i class="fas fa-map-marker-alt"></i> الدمام، المنطقة الشرقية، المملكة العربية السعودية (32423)</p>
-                <p dir="ltr" class="text-right"><i class="fas fa-phone"></i> +966 56 832 7534</p>
+                <h4 data-i18n="ftr_cnt">معلومات الاتصال</h4>
+                <p><i class="fas fa-map-marker-alt"></i> <span data-i18n="ftr_address">الدمام، المنطقة الشرقية، المملكة العربية السعودية (32423)</span></p>
+                <p dir="ltr" class="dir-align"><i class="fas fa-phone"></i> +966 56 832 7534</p>
                 <p><i class="fas fa-envelope"></i> sales@tres-line.com</p>
-                <h4>السجل التجاري</h4>
-                <p>رقم السجل التجاري: 7051631112</p>
+                <h4 data-i18n="ftr_cr_title" style="margin-top: 15px;">السجل التجاري</h4>
+                <p data-i18n="ftr_cr_val">رقم السجل التجاري: 7051631112</p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; <span id="year"></span> TRESLINE COMPANY For Commercial Services. جميع الحقوق محفوظة.</p>
+            <p>&copy; <span id="year"></span> TRESLINE COMPANY For Commercial Services. <span data-i18n="ftr_rights">جميع الحقوق محفوظة.</span></p>
         </div>
     </footer>
 
